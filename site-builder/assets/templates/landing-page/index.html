@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{SITE_NAME}} - {{TAGLINE}}</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav">
+            <div class="logo">{{SITE_NAME}}</div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+        <div class="hero-content">
+            <h1>{{HEADLINE}}</h1>
+            <p class="hero-description">{{SUBHEADLINE}}</p>
+            <div class="cta-buttons">
+                <a href="#cta" class="btn btn-primary">{{PRIMARY_CTA}}</a>
+                <a href="#learn-more" class="btn btn-secondary">{{SECONDARY_CTA}}</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <h2>{{FEATURES_HEADLINE}}</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3>{{FEATURE_1_TITLE}}</h3>
+                <p>{{FEATURE_1_DESC}}</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔒</div>
+                <h3>{{FEATURE_2_TITLE}}</h3>
+                <p>{{FEATURE_2_DESC}}</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <h3>{{FEATURE_3_TITLE}}</h3>
+                <p>{{FEATURE_3_DESC}}</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta" class="cta">
+        <h2>{{CTA_HEADLINE}}</h2>
+        <p>{{CTA_DESCRIPTION}}</p>
+        <a href="{{CTA_URL}}" class="btn btn-primary btn-large">{{CTA_BUTTON}}</a>
+    </section>
+
+    <footer>
+        <p>&copy; {{YEAR}} {{SITE_NAME}}. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

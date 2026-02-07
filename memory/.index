@@ -1,0 +1,20 @@
+# Memory Index
+
+## Daily Notes (Last 7 Days)
+- 2026-02-07.md - Site-builder skill created, memory system improved
+
+## Active Projects
+- site-builder/ - Website generation skill
+  - Template: landing-page complete
+  - Scripts: init-site.py ready
+  - Hosting guide: references/hosting-guide.md
+
+## Long-term (MEMORY.md)
+- User preferences
+- Major decisions
+
+## Search Priority
+1. .index (always) - 200 tokens
+2. Today's file - 500 tokens
+3. projects/<name>/README.md - 300 tokens
+4. MEMORY.md (main sessions only)

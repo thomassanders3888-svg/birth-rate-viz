@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{NAME}} - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="logo">{{NAME}}</div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm {{NAME}}</h1>
+            <h2>{{TITLE}}</h2>
+            <p>{{BIO}}</p>
+            <a href="#contact" class="btn">Let's connect</a>
+        </div>
+    </header>
+
+    <section id="work" class="work">
+        <h2>Selected Work</h2>
+        <div class="projects">
+            <div class="project">
+                <div class="project-image">{{PROJECT_1_IMAGE}}</div>
+                <h3>{{PROJECT_1_NAME}}</h3>
+                <p>{{PROJECT_1_DESC}}</p>
+            </div>
+            <div class="project">
+                <div class="project-image">{{PROJECT_2_IMAGE}}</div>
+                <h3>{{PROJECT_2_NAME}}</h3>
+                <p>{{PROJECT_2_DESC}}</p>
+            </div>
+            <div class="project">
+                <div class="project-image">{{PROJECT_3_IMAGE}}</div>
+                <h3>{{PROJECT_3_NAME}}</h3>
+                <p>{{PROJECT_3_DESC}}</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <p>{{EMAIL}}</p>
+        <div class="socials">
+            <a href="{{TWITTER}}">Twitter</a>
+            <a href="{{LINKEDIN}}">LinkedIn</a>
+            <a href="{{GITHUB}}">GitHub</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; {{YEAR}} {{NAME}}</p>
+    </footer>
+</body>
+</html>
